@@ -4,30 +4,23 @@
 
 
     <ros2_control name="GazeboSystem" type="system">
-        <!-- <hardware>
-            <plugin>
-                gazebo_ros2_control/GazeboSystem
-            </plugin>
-        </hardware> -->
         <hardware>
-            <plugin name="gazebo_ros2_control_plugin" type="gazebo_ros2_control/GazeboSystem">
-                <!-- 其他插件参数 -->
-            </plugin>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
         </hardware>
 
         <joint name="left_wheel_joint" type="continuous">
-            <comand_interface name="velocity">
+            <command_interface name="velocity">
                 <param name="min">-10</param>
                 <param name="max">10</param>
-            </comand_interface>
+            </command_interface>
             <state_interface name="position"/>
             <state_interface name="velocity"/>
         </joint>
         <joint name="right_wheel_joint" type="continuous">
-            <comand_interface name="velocity">
+            <command_interface name="velocity">
                 <param name="min">-10</param>
                 <param name="max">10</param>
-            </comand_interface>
+            </command_interface>
             <state_interface name="position"/>
             <state_interface name="velocity"/>
         </joint>

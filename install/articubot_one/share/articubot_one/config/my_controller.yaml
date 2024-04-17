@@ -16,10 +16,13 @@ diff_cont:
 
     base_frame_id: base_link
 
-    leftfront_wheel_name: ["left_wheel_joint"]
-    leftback_wheel_name: ["LeftBackWheel"]
-    rightfront_wheel_name: ["RightFrontWheel_joint"]
-    rightback_wheel_name: ["LeftBackWheel_joint"]
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+
+    # leftback_wheel_name: ["LeftBackWheel"]
+    # rightfront_wheel_name: ["RightFrontWheel_joint"]
+    # rightback_wheel_name: ["LeftBackWheel_joint"]
 
     use_stamped_vel: false
     wheel_separation_width: 0.297
