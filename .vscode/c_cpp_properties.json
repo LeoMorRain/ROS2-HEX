@@ -7,11 +7,10 @@
             },
             "includePath": [
                 "/opt/ros/humble/include/**",
-                "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/**",
-                "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/include/**",
                 "/usr/include/**",
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/ws01_plumbing/install/**",
+                "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/base/xpkg_comm/include/**",
+                "/home/leomorningrain/code/sdk_mark2_mcnm_ws/src/drivers/xpkg_vehicle/include/**",
                 "/usr/include/**",
                 "/usr/local/include/**",
                 "/usr/local/lib/**",

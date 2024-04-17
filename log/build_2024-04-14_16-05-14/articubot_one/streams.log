@@ -1,0 +1,67 @@
+[0.010s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/sdk_mark2_mcnm_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.073s] -- The CXX compiler identification is GNU 11.4.0
+[0.077s] -- Detecting C compiler ABI info
+[0.119s] -- Detecting C compiler ABI info - done
+[0.124s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.124s] -- Detecting C compile features
+[0.125s] -- Detecting C compile features - done
+[0.127s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.187s] -- Detecting CXX compile features - done
+[0.188s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.348s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.374s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.377s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.382s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.449s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.450s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.519s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.549s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.599s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.609s] -- Looking for pthread.h
+[0.663s] -- Looking for pthread.h - found
+[0.664s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.720s] -- Found Threads: TRUE  
+[0.843s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.894s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.895s] -- Added test 'lint_cmake' to check CMake code style
+[0.895s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.896s] -- Added test 'xmllint' to check XML markup files
+[0.897s] -- Configuring done
+[0.900s] -- Generating done
+[0.900s] -- Build files have been written to: /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one
+[0.906s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/sdk_mark2_mcnm_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one
+[0.907s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one -- -j32 -l32
+[0.935s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one -- -j32 -l32
+[0.951s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one
+[0.957s] -- Install configuration: ""
+[0.957s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/launch
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/config
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/config/my_controller.yaml
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.958s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/package.dsv
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.959s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.960s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/articubot_one/share/articubot_one/package.xml
+[0.968s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/articubot_one

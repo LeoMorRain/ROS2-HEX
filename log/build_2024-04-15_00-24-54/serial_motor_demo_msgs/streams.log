@@ -1,0 +1,282 @@
+[0.012s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/sdk_mark2_mcnm_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.124s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.132s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.185s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.268s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.312s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.355s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.523s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.754s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.755s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.767s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.767s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.767s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.778s] -- Found PythonExtra: .so  
+[0.794s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.795s] -- Added test 'lint_cmake' to check CMake code style
+[0.796s] -- Added test 'xmllint' to check XML markup files
+[0.797s] -- Configuring done
+[0.810s] -- Generating done
+[0.811s] -- Build files have been written to: /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs
+[0.815s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leomorningrain/code/sdk_mark2_mcnm_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs
+[0.815s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs -- -j32 -l32
+[0.836s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.841s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.845s] [  4%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[0.965s] running egg_info
+[0.965s] creating serial_motor_demo_msgs.egg-info
+[0.965s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[0.965s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[0.965s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[0.965s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.967s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.967s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.982s] [  4%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[1.023s] [  4%] Built target serial_motor_demo_msgs__cpp
+[1.026s] [  6%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o[0m
+[1.026s] [  8%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o[0m
+[1.026s] [ 10%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o[0m
+[1.029s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.029s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.029s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.055s] [ 19%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so[0m
+[1.079s] [ 19%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[1.086s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.086s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.086s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.201s] [ 27%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[1.204s] [ 29%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[1.204s] [ 31%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[1.217s] [ 34%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o[0m
+[1.220s] [ 36%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o[0m
+[1.221s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o[0m
+[1.242s] [ 44%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[1.242s] [ 44%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o[0m
+[1.243s] [ 44%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o[0m
+[1.269s] [ 46%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o[0m
+[1.273s] [ 51%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[1.273s] [ 51%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o[0m
+[1.300s] [ 53%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[1.303s] [ 55%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[1.303s] [ 57%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[1.306s] [ 59%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o[0m
+[1.306s] [ 63%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o[0m
+[1.306s] [ 63%] [32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o[0m
+[1.307s] [ 65%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so[0m
+[1.337s] [ 68%] [32m[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.344s] [ 68%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[1.364s] [ 68%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[1.415s] [ 70%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so[0m
+[1.446s] [ 70%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[1.558s] [ 72%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.579s] [ 74%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.590s] [ 76%] [32m[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.604s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[1.614s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[1.623s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.634s] [ 76%] Built target serial_motor_demo_msgs
+[1.645s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.863s] [ 78%] Built target serial_motor_demo_msgs__py
+[1.874s] [ 80%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o[0m
+[1.874s] [ 82%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o[0m
+[1.874s] [ 85%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o[0m
+[1.925s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so[0m
+[1.946s] [ 87%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[1.956s] [ 89%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.956s] [ 91%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.957s] [ 93%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.005s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.005s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.005s] [100%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.023s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[2.023s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[2.023s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.030s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs -- -j32 -l32
+[2.085s] Invoking command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs
+[2.089s] -- Install configuration: ""
+[2.089s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[2.089s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.089s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.c
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[2.090s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""
+[2.090s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.090s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.090s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.090s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[2.091s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.091s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.091s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.091s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[2.091s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[2.091s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""
+[2.091s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.091s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[2.091s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[2.091s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[2.092s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.092s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.092s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/dds_fastrtps
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.092s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.092s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs
+[2.092s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg
+[2.092s] -- Up-to-date: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[2.092s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.092s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[2.093s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.093s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so
+[2.113s] Listing '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs'...
+[2.113s] Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/__init__.py'...
+[2.113s] Listing '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg'...
+[2.113s] Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/__init__.py'...
+[2.113s] Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...
+[2.113s] Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_command.py'...
+[2.113s] Compiling '/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...
+[2.115s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.115s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.115s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.115s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.115s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.116s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[2.116s] -- Set runtime path of "/home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[2.116s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.117s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.118s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.118s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.118s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.118s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[2.118s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[2.118s] -- Installing: /home/leomorningrain/code/sdk_mark2_mcnm_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[2.120s] Invoked command in '/home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leomorningrain/code/sdk_mark2_mcnm_ws/build/serial_motor_demo_msgs
